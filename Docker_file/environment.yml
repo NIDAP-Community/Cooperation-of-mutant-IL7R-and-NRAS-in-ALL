@@ -1,0 +1,6 @@
+name: bulk_rna_seq
+channels:
+- anaconda
+- conda-forge
+dependencies:
+- python=3.8
