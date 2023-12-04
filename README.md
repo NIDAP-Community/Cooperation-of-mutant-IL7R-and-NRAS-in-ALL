@@ -16,10 +16,10 @@ To reproduce these results, follow these steps:
     * Move to the ./Docker_file/ directory of this repo
 
 4.  Build the container:
-    * ```docker build --tag Cooperation-of-mutant-IL7R-and-NRAS-in-ALL .```
+    * ```docker build --tag cooperation-of-mutant-il7r-and-nras-in-all .```
 
 5.  Navidate to the cloned repository directory, Run the conainer by mounting the ./src/ directory of the repo to /tmp/ in the container:
-    * ```docker run -ti -v $(pwd)/src:/mnt Cooperation-of-mutant-IL7R-and-NRAS-in-ALL```
+    * ```docker run -ti -v $(pwd)/src:/mnt cooperation-of-mutant-il7r-and-nras-in-all```
     
 6.  Run the following code.
     * ```cd /mnt```
